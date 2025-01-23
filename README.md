@@ -9,6 +9,12 @@ Ce TP permet de récupérer les données en temps réel des stations Vélib' via
 - **Mise à jour périodique** : Les données sont mises à jour toutes les minutes, garantissant qu'elles sont toujours à jour.
 # TP 2
 
+# Carte des Stations Vélib' en Temps Réel
+
+Ce projet utilise l'API OpenData pour récupérer les données en temps réel des stations Vélib' disponibles dans une ville. Les informations récupérées incluent le nombre de vélos disponibles, la capacité de chaque station, et les coordonnées géographiques, permettant ainsi de visualiser les stations sur une carte interactive avec **Folium**.
+
+## Description
+
 Ce TP interroge l'API pour récupérer des informations sur les stations Vélib'. Il affiche une carte interactive à l'aide de la bibliothèque Python **Folium**, où chaque station est représentée par un marqueur. Lorsque l'utilisateur clique sur un marqueur, un **popup** contenant des informations détaillées sur la station s'affiche.
 
 Les informations affichées dans le popup incluent :
@@ -18,6 +24,9 @@ Les informations affichées dans le popup incluent :
 - **Vélos disponibles** : Le nombre de vélos disponibles à la station.
 - **Vélos mécaniques** : Le nombre de vélos mécaniques disponibles.
 - **Vélos électriques** : Le nombre de vélos électriques disponibles.
+
+
+
 
 
 
