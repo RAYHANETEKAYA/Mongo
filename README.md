@@ -20,7 +20,6 @@ Les informations affichées dans le popup incluent :
 - **Vélos électriques** : Le nombre de vélos électriques disponibles.
 
 # TP 3
-# Vélib Stations Map - MongoDB & Folium
 
 Ce TP a pour objectif de récupérer les données les plus récentes des stations Vélib' depuis une base de données MongoDB et de les afficher sur une carte interactive à l'aide de **Folium**. Chaque station est marquée sur la carte avec des informations détaillées telles que :
 
