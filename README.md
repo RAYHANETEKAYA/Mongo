@@ -31,6 +31,26 @@ Ce TP a pour objectif de récupérer les données les plus récentes des station
 
 La carte est ensuite sauvegardée en format HTML et peut être ouverte dans n'importe quel navigateur web.
 
+# TP 4 
+
+Cette application permet de rechercher les stations Vélib' à proximité d'une adresse donnée (moins de 500 mètres) qui possèdent des vélos disponibles. Elle utilise **Flask** pour l'interface web, **MongoDB** pour récupérer les informations sur les stations Vélib', et **Folium** pour générer une carte interactive affichant la position de l'utilisateur et les stations proches.
+
+## Fonctionnalités
+
+1. **Géocodage d'adresse** : L'application convertit une adresse en coordonnées géographiques (latitude, longitude) via **Geopy**.
+2. **Recherche de stations Vélib'** : Recherche des stations Vélib' dans une base de données MongoDB et filtre les stations situées à moins de 500 mètres de l'adresse fournie, avec des vélos disponibles.
+3. **Carte interactive** : Génération d'une carte interactive avec **Folium** pour afficher la position de l'utilisateur et les stations Vélib' à proximité.
+4. **Affichage des résultats** : La liste des stations proches est affichée avec les informations suivantes :
+   - Nom de la station
+   - Capacité de la station
+   - Nombre de vélos disponibles
+   - Distance par rapport à l'utilisateur
+
+
+
+
+
+
 
 
 
